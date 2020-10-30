@@ -50,20 +50,20 @@ class TestDate{
 		System.out.println(t.getDay()+"/"+t.getMonth()+"/"+t.getYear());
 	}
 	
-	public void accept(TestDate t){
-		Scanner sc = new Scanner(System.in);
-		int a=0;
-		System.out.println("Enter day");
-		a= sc.nextInt();
-		t.setDay(a);
-		System.out.println("Enter month");
-		a= sc.nextInt();
-		t.setMonth(a);
-		System.out.println("Enter Year");
-		a= sc.nextInt();
-		t.setYear(a);
-		//System.out.println("New Date");
-	}
+// 	public void accept(TestDate t){
+// 		Scanner sc = new Scanner(System.in);
+// 		int a=0;
+// 		System.out.println("Enter day");
+// 		a= sc.nextInt();
+// 		t.setDay(a);
+// 		System.out.println("Enter month");
+// 		a= sc.nextInt();
+// 		t.setMonth(a);
+// 		System.out.println("Enter Year");
+// 		a= sc.nextInt();
+// 		t.setYear(a);
+// 		//System.out.println("New Date");
+// 	}
 	
 	public static void check(){
 		System.out.println("This is static method");
@@ -80,11 +80,11 @@ class TestDate{
 		t.show(t1);
 		System.out.println("\n");
 		
-		t.accept(t);
-		System.out.println("\n");
+// 		t.accept(t);
+// 		System.out.println("\n");
 		
-		System.out.println("Date given by user");
-		t.show(t);
+// 		System.out.println("Date given by user");
+// 		t.show(t);
 		System.out.println("\n");
 		TestDate.check();
 	}
